@@ -1,0 +1,10 @@
+Lonely, a REAL soldier should face StarCraft BY HIMSELF. 
+
+nc 202.120.7.212 12321 
+
+binary 
+libc.so.6
+
+Hint: Do you know Splay and Segment tree?
+
+Hint2: It's a bad splay tree filled with vulns. Do not concentrate on the unexploitable ones.

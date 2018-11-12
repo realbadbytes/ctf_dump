@@ -74,7 +74,7 @@ int main(int argc, const char **argv, const char **envp)
       /* these next few lines just parse out the number from our input. might be incorrect */
       quoted_string = strtok(0, "\"");
       quoted_strlen = strlen(quoted_string);
-      memcpy(globals, quoted_string2, quoted_strlen);
+      memcpy(globals, quoted_string, quoted_strlen);
       specified_len = strtok(0, "(");
       specified_len = strtok(0, ")");
       /* if input is (4 LETTERS), move 4 into rax */
